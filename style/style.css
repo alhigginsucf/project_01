@@ -1,0 +1,38 @@
+.carousel-inner {
+    text-align: center;
+}
+.carousel .item > img {
+    display: inline-block;
+}
+.jumbotron {
+    background-size: cover;
+    font-family: ;
+    color: #ffffff;
+    padding: 75px;  
+}
+body {
+    
+}
+figcaption {
+    font-style: italic;
+    color: black;
+}
+.row {
+    margin: 10px;
+    padding: 10px;
+    background-color:#f4511e;
+    color: #ffffff
+}
+h4 {
+    text-decoration: underline;
+}
+#carousel {
+    border: 2px;
+    border-style: dotted;
+    border-color: black;
+     ;
+}
+#submit {
+    color: black;
+}
+
