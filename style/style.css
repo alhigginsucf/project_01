@@ -6,9 +6,11 @@
 }
 .jumbotron {
     background-size: cover;
+    background-color: #f4511e;
     font-family: lucida console;
     color: #ffffff;
     padding: 75px;  
+    
 }
 body {
     
@@ -20,27 +22,23 @@ figcaption {
 .row {
     margin: 10px;
     padding: 10px;
-    background-color:#f4511e;
-    color: #ffffff
+    background-color:#f41e54;
+    color: #ffffff;
+    border-style: dashed;
+    border-color: #fffff;
 }
 h4 {
     text-decoration: underline;
     font-size: 2em;
 }
 #carousel {
-    border: 2px;
-    border-style: dotted;
-    border-color: black;
-     ;
+   
 }
 #submit {
     color: black;
 }
  footer {
-     color: black
+     color: black;
+     text-align: center; 
  }
- h1 {
-     border-style: dashed;
-     border-color: #f4511e;
-     border-width: 12px;
- }
+
