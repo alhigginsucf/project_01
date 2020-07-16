@@ -42,4 +42,5 @@ h4 {
  h1 {
      border-style: dashed;
      border-color: #f4511e;
+     border-width: 12px;
  }
