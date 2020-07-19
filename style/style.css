@@ -6,34 +6,33 @@
 }
 .jumbotron {
     background-size: cover;
-    background-color: #f4511e;
-    font-family: lucida console;
-    color: #ffffff;
-    padding: 75px;  
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e2dccb;
+    border-style: outset;
+ 
 }
-body {
-    
+.img {
+    text-align: center;
 }
 figcaption {
     font-style: italic;
     color: black;
 }
 .row {
-    margin: 10px;
+    margin: 25px;
     padding: 10px;
-    background-color:#f41e54;
-    color: #ffffff;
-    border-style: dashed;
-    border-color: #fffff;
+    background-color: #494a69;
+    color: black;
+    border-style: outset;
+    border-color: #ffffff;
+    font-family: "lucida console";
 }
 h4 {
     text-decoration: underline;
     font-size: 2em;
+    text-align: center;
 }
-#carousel {
-   
-}
+
 #submit {
     color: black;
 }
@@ -41,4 +40,19 @@ h4 {
      color: black;
      text-align: center; 
  }
-
+ fieldset {
+     color: black;
+ }
+.vp {
+    font-style: oblique;
+}
+h1 {
+    font-weight: bolder;
+    
+}
+.navbar {
+    background-color: #494a69;
+}
+.navbar{
+    color: black;
+}
