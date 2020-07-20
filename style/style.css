@@ -6,13 +6,24 @@
 }
 .jumbotron {
     background-size: cover;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #e2dccb;
+    font-family: 'Monoton' ;
+    color: black;
     border-style: outset;
- 
+    font-style: bolder;
+    font-style:  italic;
+    text-decoration: underline;
+    ;
 }
-.img {
+.jumbotron h1 {
+    color: #ffffff;
+    text-decoration: double;
+}
+.item img {
+    width: 40%;
+}
+.copper {
     text-align: center;
+
 }
 figcaption {
     font-style: italic;
@@ -21,11 +32,11 @@ figcaption {
 .row {
     margin: 25px;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #ffffff95;
     color: black;
     border-style: outset;
     border-color:  #494a69;
-    font-family: "lucida console";
+    font-family: "Marker";
 }
 h4 {
     text-decoration: underline;
@@ -39,22 +50,51 @@ h4 {
  footer {
      color: black;
      text-align: center; 
+     font-family: 'Marker';
  }
  fieldset {
      color: black;
  }
-.vp {
-    font-style: oblique;
-}
+.jumbotron p {
+     font-family: 'Monoton';
+ }
+
 h1 {
     font-weight: bolder;
     
 }
 .navbar {
-    background-color: #494a69;
+    background-color: #3b3b3f;
     color: black;
 }
-
-.can {
-    background-color: #e2dccb;
+@font-face {
+    font-family: 'Ranchers';
+    src: url('../fonts/Ranchers-Regular.ttf')
+format('truetype');
+}
+@font-face {
+    font-family: 'Monoton';
+    src: url('../fonts/Monoton-Regular.ttf')
+format('truetype');
+}
+@font-face {
+    font-family: 'Marker';
+    src: url('../fonts/PermanentMarker-Regular.ttf')
+format('truetype');
+}
+@font-face {
+    font-family: 'RockSalt';
+    src: url('../fonts/RockSalt-Regular.ttf')
+format('truetype');
+}
+.vp {
+    font-family: '';
+    color: #ffffff;
+}
+.nav {
+    font-family: 'RockSalt';
+}
+.navbar {
+    font-family: 'RockSalt';
+    
 }
