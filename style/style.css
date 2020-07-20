@@ -21,10 +21,10 @@ figcaption {
 .row {
     margin: 25px;
     padding: 10px;
-    background-color: #494a69;
+    background-color: #ffffff;
     color: black;
     border-style: outset;
-    border-color: #ffffff;
+    border-color:  #494a69;
     font-family: "lucida console";
 }
 h4 {
@@ -52,7 +52,9 @@ h1 {
 }
 .navbar {
     background-color: #494a69;
-}
-.navbar{
     color: black;
+}
+
+.can {
+    background-color: #e2dccb;
 }
