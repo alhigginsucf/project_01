@@ -12,7 +12,7 @@
     font-style: bolder;
     font-style:  italic;
     text-decoration: underline;
-    ;
+    
 }
 .jumbotron h1 {
     color: #ffffff;
@@ -47,10 +47,11 @@ h4 {
 #submit {
     color: black;
 }
- footer {
+ footer .well {
      color: black;
      text-align: center; 
      font-family: 'Marker';
+     background-color: #3b3b3f;
  }
  fieldset {
      color: black;
